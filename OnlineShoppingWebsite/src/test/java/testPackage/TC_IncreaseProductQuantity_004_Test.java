@@ -25,10 +25,6 @@ public class TC_IncreaseProductQuantity_004_Test extends BaseTest {
 		WelcomePage wp = new WelcomePage(driver);
 		// To Search for Laptop(product)
 		wp.getSearchTextBox().sendKeys(laptop, Keys.ENTER);
-
-//		String expectedTitleOfLaptopsPage="Amazon.in : laptop";
-//    Assert.assertEquals(driver.getTitle(), expectedTitleOfLaptopsPage, "Laptop Page Is Not Displayed!!");
-
 		LaptopPage lp = new LaptopPage(driver);
 
 		// To verify whether Laptop is displayed

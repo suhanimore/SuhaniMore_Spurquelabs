@@ -28,9 +28,6 @@ public class TC_RemoveProductFromCart_005_Test extends BaseTest {
 		// To Search for Laptop(product)
 		wp.getSearchTextBox().sendKeys(laptop, Keys.ENTER);
 
-//		String expectedTitleOfLaptopsPage="Amazon.in : laptop";
-//    Assert.assertEquals(driver.getTitle(), expectedTitleOfLaptopsPage, "Laptop Page Is Not Displayed!!");
-
 		LaptopPage lp = new LaptopPage(driver);
 
 		// To verify whether Laptop is displayed
